@@ -4,15 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>First Application</title>
+<title>Insert title here</title>
 </head>
 <body>
+<h1>welcome to home page</h1>
+<%String nm=request.getParameter("inputText");
+nm = nm.toUpperCase();%>
+<h3>Your name is :<%=nm %></h3>
 
- <form name="myForm" action="home.jsp" method="get">
-First Name: <input type="text" name="inputText">
-Last Name: <input type="text" name="inputText">
-Email: <input type="text" name="inputText">
-<input type="submit" >
-</form>
 </body>
 </html>
