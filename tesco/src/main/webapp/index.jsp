@@ -7,12 +7,13 @@
 <title>First Application</title>
 </head>
 <body>
-
+<h1>Enter your details</h1>
  <form name="myForm" action="home.jsp" method="get">
 First Name: <input type="text" name="inputText">
 Last Name: <input type="text" name="inputText">
 Email: <input type="text" name="inputText">
 <input type="submit" >
 </form>
+<a href="login.jsp">click to login</a>
 </body>
 </html>
